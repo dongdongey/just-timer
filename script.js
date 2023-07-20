@@ -22,7 +22,7 @@ function Time(){
             x.innerText=`${String(min).padStart(2, "0")}:${String(sec).padStart(2, "0")}`; 
         }, 1000) // setInterval은 변수에 대입하는 동시에 작동함
         sex = false
-        btn.className='stopkbtn'
+        btn.className='stopbtn'
     }
     else if (sex === false) {
         btn.innerText = `sex start`
