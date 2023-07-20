@@ -25,13 +25,16 @@
     text-align: center;
     line-height: 50px;
     border-radius: 5px;
-    transition: all 0.2s ;
     font-size: 30px;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 #btn1:active{
     margin-top: 15px;
     margin-bottom: 5px;
-    box-shadow: 0px 0px 0px 0px
+    -webkit-box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px;
 }
 
 .blackbtn{
@@ -43,7 +46,4 @@
     color : white;
     background-color: hsl(240, 70%, 83%);
     box-shadow: 0px 5px 0px 0px hsl(257, 40%, 64%);
-}
-button, html [type="button"]{
-    -webkit-transform:translate3d(0,0,0);
 }
