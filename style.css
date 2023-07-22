@@ -27,9 +27,9 @@
     border-radius: 5px;
     font-size: 30px;
     -webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
+    -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
-	transition: all 0.2s;
+    transition: all 0.2s;
 }
 #btn1:hover{
     margin-top: 15px;
