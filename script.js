@@ -10,7 +10,7 @@ var timerId
 // 그래야 함수 안 어디서든 접근이 가능함
 function Time(){
     if (sex === true) {
-        btn.innerText = `sex stop`
+        btn.innerText = `stop`
         timerId = setInterval(() => {
             timecount = timecount + 1
             console.log(timecount)
@@ -25,7 +25,7 @@ function Time(){
         btn.className='stopbtn'
     }
     else if (sex === false) {
-        btn.innerText = `sex start`
+        btn.innerText = `start`
         clearInterval(timerId)
         // clearInterval을 작동하면 재사용이 불가능함
         // 따라서 타이머를 다시 사용하려면 변수에 setInterval을 다시 대입해줘야함
