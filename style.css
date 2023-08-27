@@ -37,6 +37,12 @@
     -webkit-box-shadow: 0px 0px 0px 0px;
     box-shadow: 0px 0px 0px 0px;
 }
+#btn1.touch{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
 
 .stopbtn{
     color : white;

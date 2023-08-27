@@ -4,6 +4,7 @@ var min = 0
 var sex = true
 var btn = document.getElementById("btn1")
 btn.addEventListener('click', Time)
+btn.addEventListener('touchstart', Time_for_touchstart)
 var x = document.getElementById("ttim")
 var timerId
 // timerId는 밖에서 선언해줬어야 함
@@ -32,4 +33,8 @@ function Time(){
         sex = true
         btn.className='startbtn'
     }
+}
+
+function Time_for_touchstart(){
+    
 }
